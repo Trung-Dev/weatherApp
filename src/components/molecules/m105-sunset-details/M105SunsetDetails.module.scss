@@ -1,0 +1,15 @@
+.sunsetDetails {
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemList {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon {
+    inline-size: 24px;
+    block-size: 24px;
+  }

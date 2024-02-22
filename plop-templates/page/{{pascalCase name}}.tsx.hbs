@@ -1,0 +1,30 @@
+import { GetStaticProps } from 'next';
+import Head from 'next/head';
+import { ReactElement } from 'react';
+import { getLocaleProps } from '{{root}}utils/i18n.utils';
+
+type {{pascalCase name}}Props = {
+  title: string;
+};
+
+export default function {{pascalCase name}}({ title }: {{pascalCase name}}Props): ReactElement {
+  return (
+    <>
+      <Head>
+        <title>{title}</title>
+      </Head>
+
+      <div>{title}</div>
+    </>
+  );
+}
+
+export const getStaticProps: GetStaticProps<{{pascalCase name}}Props> = ({
+  locale = process.env.LOCALE,
+  locales = process.env.LOCALES?.split(','),
+}) => ({
+  props: {
+    ...getLocaleProps(locale, locales, ['general']),
+    title: '{{pascalCase name}}',
+  },
+});

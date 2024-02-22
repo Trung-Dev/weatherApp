@@ -1,0 +1,64 @@
+@import "normalize.css";
+@import "utils";
+
+:root {
+  @include typography-variables;
+  --base-font-size: 16; // 1rem => 16px
+  --base-font: "Inter", sans-serif;
+
+  --color-blue-600: #2f90ff;
+  --color-blue-500: #00bcff;
+  --color-blue-400: #5ab9f3;
+  --color-blue-300: #7eb9c5;
+  --color-blue-200: #b2d7de;
+  --color-blue-100: #d0f3ff;
+  --color-gray-900: #29292c;
+  --color-gray-800: #333;
+  --color-gray-400: #a0a7ba;
+  --color-gray-300: #cdd2de;
+  --color-gray-200: #cbd6e7;
+  --color-white: #fff;
+  --color-yellow: #ffd439;
+  --color-green-400: #68e2d3;
+  --color-green-500: #37e4aa;
+  --color-red-500: #fd7778;
+  --color-yankees-blue: #1f1f42;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0 0 0 / 0); // remove highlight color
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-yankees-blue);
+  color: var(--color-white);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}

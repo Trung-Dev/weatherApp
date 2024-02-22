@@ -1,0 +1,43 @@
+.verticalForecastContainer {
+    display: flex;
+    justify-content: center;
+
+    .day {
+        @include text-m-bold;
+
+        padding-bottom: 4px;
+    }
+    .date {
+        @include text-m-regular;
+
+        color: var(--color-gray-400);
+    }
+    .temperature {
+        @include text-m-bold;
+    }
+}
+
+.verticalForecastUnit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 24px 8px;
+}
+
+.verticalForecastDate {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.weatherIcon {
+    width: 42px;
+    height: 42px;
+}
+
+.activeContent {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 40px;
+    backdrop-filter: blur(16px);
+}

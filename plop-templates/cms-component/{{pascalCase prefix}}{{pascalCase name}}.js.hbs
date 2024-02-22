@@ -1,0 +1,13 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+import styles from "./{{pascalCase prefix}}{{pascalCase name}}.module.scss";
+
+const {{pascalCase prefix}}{{pascalCase name}} = ({ title }) => (
+  <div className={styles.{{camelCase name}} }>{title}</div>
+);
+
+{{pascalCase prefix}}{{pascalCase name}}.propTypes = {
+  title: PropTypes.string.isRequired,
+};
+
+export { {{pascalCase prefix}}{{pascalCase name}} };

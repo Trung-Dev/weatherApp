@@ -1,0 +1,48 @@
+.text {
+  font-family: var(--base-font);
+  line-height: 1.2;
+}
+
+.text-xxs {
+  font-size: calc(10rem / var(--base-font-size));
+}
+
+.text-xs {
+  font-size: calc(12rem / var(--base-font-size));
+}
+
+.text-s {
+  font-size: calc(14rem / var(--base-font-size));
+}
+
+.text-m {
+  font-size: 1rem;
+}
+
+.text-l {
+  font-size: calc(18rem / var(--base-font-size));
+}
+
+.text-xl {
+  font-size: calc(20rem / var(--base-font-size));
+}
+
+.text-xxl {
+  font-size: calc(64rem / var(--base-font-size));
+}
+
+.weight-normal {
+  font-weight: 400;
+}
+
+.weight-medium {
+  font-weight: 500;
+}
+
+.weight-semiBold {
+  font-weight: 600;
+}
+
+.weight-bold {
+  font-weight: 700;
+}

@@ -1,0 +1,80 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^7.1.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "classnames": "^2.3.2",
+    "gsap": "^3.12.5",
+    "normalize.css": "^8.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject",
+    "plop": "pota plop && npm run format",
+    "format": "prettier \"**/*.{cjs,css,html,js,json,jsx,md,mdx,mjs,scss,ts,tsx}\" --write --loglevel warn",
+    "storybook": "storybook dev -p 6006 -s public",
+    "build-storybook": "storybook build -s public"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@pota/cli": "^2.0.1",
+    "@pota/plop-scripts": "^1.0.2",
+    "@storybook/addon-actions": "^7.0.11",
+    "@storybook/addon-essentials": "^7.0.11",
+    "@storybook/addon-interactions": "^7.0.11",
+    "@storybook/addon-links": "^7.0.11",
+    "@storybook/node-logger": "^7.0.11",
+    "@storybook/preset-create-react-app": "^7.0.11",
+    "@storybook/react": "^7.0.11",
+    "@storybook/react-webpack5": "^7.0.11",
+    "@storybook/testing-library": "^0.1.0",
+    "babel-plugin-named-exports-order": "^0.0.2",
+    "node-sass-json-importer": "^4.3.0",
+    "plop": "^3.1.2",
+    "prop-types": "^15.8.1",
+    "react-svg": "^16.1.8",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.71.1",
+    "sass-loader": "^14.1.1",
+    "storybook": "^7.0.11",
+    "webpack": "^5.90.3"
+  },
+  "pota": "@pota/plop-scripts"
+}

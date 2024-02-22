@@ -1,0 +1,32 @@
+{
+  "generatedAt": 1685434532800,
+  "builder": { "name": "webpack4" },
+  "hasCustomBabel": false,
+  "hasCustomWebpack": false,
+  "hasStaticDirs": false,
+  "hasStorybookEslint": false,
+  "refCount": 0,
+  "metaFramework": {
+    "name": "CRA",
+    "packageName": "react-scripts",
+    "version": "5.0.1"
+  },
+  "packageManager": { "type": "npm", "version": "8.5.5" },
+  "storybookVersion": "6.5.16",
+  "language": "javascript",
+  "storybookPackages": {
+    "@storybook/addon-actions": { "version": "6.5.16" },
+    "@storybook/node-logger": { "version": "6.5.16" },
+    "@storybook/react": { "version": "6.5.16" },
+    "@storybook/react-webpack5": { "version": null },
+    "@storybook/testing-library": { "version": "0.0.13" },
+    "storybook": { "version": null }
+  },
+  "framework": { "name": "react" },
+  "addons": {
+    "@storybook/addon-links": { "version": "6.5.16" },
+    "@storybook/addon-essentials": { "version": "6.5.16" },
+    "@storybook/addon-interactions": { "version": "6.5.16" },
+    "@storybook/preset-create-react-app": { "version": "4.1.2" }
+  }
+}

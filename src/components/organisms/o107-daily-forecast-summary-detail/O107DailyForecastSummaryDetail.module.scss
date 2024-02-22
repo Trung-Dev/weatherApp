@@ -1,0 +1,36 @@
+.centreWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.dailyForecastDetailContainer {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: fit-content;
+    border-radius: 24px;
+    padding: 16px 16px 0 16px;
+    backdrop-filter: blur(16px);
+
+    .containerTitle {
+        @include  text-m-bold;
+    }
+    
+    .date {
+        @include text-m-regular;
+    }
+}
+
+.textWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dailyForecastDetailWrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.itemList {
+    flex: 0 0 33.333333%;
+    padding: 12px;
+}
+
