@@ -1,7 +1,7 @@
 # weatherApp
 Check the weather on your location
 
-yarn
+npm install
 
 npm run start
 
