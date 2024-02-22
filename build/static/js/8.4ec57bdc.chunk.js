@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[8],{8:(e,a,p)=>{e.exports=p.p+"static/media/temperature_outline.bd4cacfb375aa2ed3116.svg"}}]);
