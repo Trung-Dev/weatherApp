@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[252],{252:(e,p,s)=>{e.exports=s.p+"static/media/search_outline.d7c67fb302bf2a822935.svg"}}]);

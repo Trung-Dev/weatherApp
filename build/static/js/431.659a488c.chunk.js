@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[431],{431:(e,p,s)=>{e.exports=s.p+"static/media/drizzle.0078ed5142bc35339dc7.svg"}}]);

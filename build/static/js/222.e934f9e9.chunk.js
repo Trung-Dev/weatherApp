@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[222],{222:(e,p,s)=>{e.exports=s.p+"static/media/snow.83f67e44079d9958ecc5.svg"}}]);

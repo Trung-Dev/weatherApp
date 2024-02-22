@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[34],{34:(e,p,s)=>{e.exports=s.p+"static/media/wind_outline.77feb6dac9932cc8497e.svg"}}]);
